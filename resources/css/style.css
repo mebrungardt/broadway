@@ -4,10 +4,45 @@ html {
 }
 
 /*Removes bullet points from Nav list*/
+
 li {
   list-style: none;
 }
 
 header {
-  background-image: url("../images/the-flatiron-building.png")
+  background-image: url("../images/the-flatiron-building.png");
+  background-repeat: no-repeat;
+}
+
+/*Changes links at NAV and Footer to white and resizes*/
+
+a {
+  color: white;
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/*sets background image and color settings for middle "Designed in NY"*/
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+  background-image: url("../images/the-flatiron-building.png");
+  background-repeat: no-repeat;
+}
+
+p {
+  font-size: 14px;
+}
+
+footer {
+  text-align: left;
+  font-size: 11px;
+  color: white;
+  background-color: dimgray;
 }
