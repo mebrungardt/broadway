@@ -1,0 +1,13 @@
+html {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+
+/*Removes bullet points from Nav list*/
+li {
+  list-style: none;
+}
+
+header {
+  background-image: url("../images/the-flatiron-building.png")
+}
